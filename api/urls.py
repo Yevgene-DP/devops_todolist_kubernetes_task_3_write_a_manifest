@@ -3,6 +3,6 @@ from . import views
 
 urlpatterns = [
     # ... інші маршрути
-    path('health/liveness/', views.liveness),
-    path('health/readiness/', views.readiness),
+    path('liveness/', views.liveness),
+    path('readiness/', views.readiness),
 ]
